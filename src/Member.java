@@ -16,8 +16,8 @@ class Member {
 class StudentMember extends Member {
     private String discount;
     public StudentMember(String name, String memberId, String joinDate, String Training) {
-        super(name, memberId, joinDate);  // Call parent constructor
-        this.discount = discount;
+        super(name, memberId, joinDate);
+        this.discount = Training;
     }
     public void showDiscount() {
         System.out.println(name + " has " + discount);
